@@ -30,27 +30,6 @@
 }
 .group_2 {
   justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  position: relative;
-  min-width: 50px;
-  min-height: auto;
-}
-.group_3 {
-  border-color: hsla(var(--igx-secondary-400));
-  border-width: 0px 0px 0px 1px;
-  border-style: solid;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: flex-start;
-  gap: 16px;
-  left: 0;
-  position: relative;
-  min-width: 50px;
-  min-height: auto;
-}
-.group_4 {
-  justify-content: flex-start;
   align-items: stretch;
   align-content: flex-start;
   position: relative;
@@ -64,26 +43,13 @@
   color: hsla(var(--igx-surface-500));
 }
 .image {
-  object-fit: cover;
-  width: 405px;
-  height: 9px;
-  min-width: 0;
-  flex-shrink: 0;
-}
-.icon_1 {
-  font-size: 18px;
-  width: 18px;
-  height: 18px;
-  margin: 0 0 0 24px;
-}
-.hyperlink {
-  color: hsla(var(--igx-secondary-100));
-  margin: 0 16px 0 0;
-  height: max-content;
-  min-width: min-content;
-  flex-shrink: 0;
+  object-fit: contain;
+  width: 413px;
+  height: 14px;
+  min-width: 413px;
 }
 .avatar {
+  background-color: hsla(var(--igx-surface-500));
   --background: none;
 }
 .navbar {
@@ -92,7 +58,7 @@
   height: max-content;
   min-width: min-content;
   flex-grow: 1;
-  flex-shrink: 0;
+  flex-basis: 0;
 }
 .nav-drawer {
   min-width: min-content;
