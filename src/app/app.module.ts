@@ -9,7 +9,6 @@ import { IgxGridModule, IgxListModule, IgxAvatarModule, IgxChipsModule, IgxButto
 import { FormsModule } from '@angular/forms';
 import { AccountsComponent } from './accounts/accounts.component';
 import { AccountSampleComponent } from './account-sample/account-sample.component';
-import { IgxTabsModule } from 'igniteui-angular';
 import { ContactsComponent } from './contacts/contacts.component';
 import { ContractsComponent } from './contracts/contracts.component';
 import { ReportsComponent } from './reports/reports.component';
