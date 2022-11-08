@@ -14,7 +14,6 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { TasksComponent } from './tasks/tasks.component';
 
 export const routes: Routes = [
-  { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'error', component: UncaughtErrorComponent },
   { path: 'home', component: HomeComponent, data: { text: 'Home' } },
   { path: 'accounts', component: AccountsComponent, data: { text: 'Accounts' } },
