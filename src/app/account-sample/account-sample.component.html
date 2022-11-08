@@ -1,6 +1,6 @@
 <div class="column-layout group">
   <div class="row-layout account-header">
-    <div class="row-layout page-title-1">
+    <div class="row-layout page-title">
       <div class="row-layout group_1">
         <img src="/assets/Accounts Icon - Green.svg" class="image" />
       </div>
@@ -71,10 +71,10 @@
 <div class="row-layout group_7">
   <div class="column-layout group_8">
     <igx-tabs [disableAnimation]="true" class="tabs">
-      <igx-tab-item [selected]="true" [disabled]="false" class="tab-item">
-        <igx-tab-content class="fake_tab_content">
+      <igx-tab-item [selected]="true" class="tab-item">
+        <igx-tab-content class="column-layout tab-item-content">
           <div class="column-layout group_9">
-            <div class="row-layout buttons">
+            <div class="row-layout buttons-1">
               <button igxButton="raised" igxRipple class="button">
                 <igx-icon>
                   person_add
@@ -106,7 +106,7 @@
                 <span>Add files</span>
               </button>
             </div>
-            <igx-accordion [singleBranchExpand]="false" class="accordion">
+            <igx-accordion [singleBranchExpand]="true" class="accordion">
               <igx-expansion-panel>
                 <igx-expansion-panel-body>
                   <div class="column-layout group_10">
@@ -219,51 +219,65 @@
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
               <igx-expansion-panel>
-                <igx-expansion-panel-body></igx-expansion-panel-body>
+                <igx-expansion-panel-body>
+                  <p class="igx-typography__body-2 text_3">
+                    No cases filed.
+                  </p>
+                </igx-expansion-panel-body>
                 <igx-expansion-panel-header iconPosition="right">
                   <igx-expansion-panel-title>Cases (0)</igx-expansion-panel-title>
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
               <igx-expansion-panel>
-                <igx-expansion-panel-body></igx-expansion-panel-body>
+                <igx-expansion-panel-body>
+                  <p class="igx-typography__body-2 text_3">
+                    No notes added.
+                  </p>
+                </igx-expansion-panel-body>
                 <igx-expansion-panel-header iconPosition="right">
                   <igx-expansion-panel-title>Notes (0)</igx-expansion-panel-title>
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
               <igx-expansion-panel>
-                <igx-expansion-panel-body></igx-expansion-panel-body>
+                <igx-expansion-panel-body>
+                  <p class="igx-typography__body-2 text_3">
+                    No files uploaded
+                  </p>
+                </igx-expansion-panel-body>
                 <igx-expansion-panel-header iconPosition="right">
                   <igx-expansion-panel-title>Files (0)</igx-expansion-panel-title>
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
             </igx-accordion>
           </div>
-          <div class="row-layout group_16"></div>
         </igx-tab-content>
         <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>info</igx-icon>
           <span igxTabHeaderLabel>Related</span>
         </igx-tab-header>
       </igx-tab-item>
       <igx-tab-item class="tab-item">
-        <igx-tab-content class="fake_tab_content"></igx-tab-content>
+        <igx-tab-content class="row-layout tab-item-content_1"></igx-tab-content>
         <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>info</igx-icon>
           <span igxTabHeaderLabel>Details</span>
         </igx-tab-header>
       </igx-tab-item>
       <igx-tab-item class="tab-item">
-        <igx-tab-content class="fake_tab_content"></igx-tab-content>
+        <igx-tab-content class="row-layout tab-item-content_1"></igx-tab-content>
         <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>info</igx-icon>
           <span igxTabHeaderLabel>News</span>
         </igx-tab-header>
       </igx-tab-item>
     </igx-tabs>
   </div>
-  <div class="column-layout group_17">
+  <div class="column-layout group_16">
     <igx-tabs [disableAnimation]="true" class="tabs">
-      <igx-tab-item [selected]="true" [disabled]="false" class="tab-item">
-        <igx-tab-content class="fake_tab_content">
+      <igx-tab-item [selected]="true" class="tab-item">
+        <igx-tab-content class="column-layout tab-item-content">
           <div class="column-layout group_9">
-            <div class="row-layout buttons_1">
+            <div class="row-layout buttons">
               <button igxButton="raised" igxRipple class="button">
                 <igx-icon>
                   calendar_today
@@ -272,7 +286,7 @@
               </button>
               <button igxButton="raised" igxRipple class="button">
                 <igx-icon>
-                  star_border
+                  assignment
                 </igx-icon>
                 <span>New task</span>
               </button>
@@ -283,7 +297,7 @@
                 <span>Log a call</span>
               </button>
             </div>
-            <igx-accordion [singleBranchExpand]="false" class="accordion">
+            <igx-accordion [singleBranchExpand]="true" class="accordion">
               <igx-expansion-panel>
                 <igx-expansion-panel-body>
                   <igx-list class="list">
@@ -292,20 +306,20 @@
                         <igx-avatar src="/assets/Calendar-Avatar-Icon.svg" class="avatar_2"></igx-avatar>
                       </span>
                       <span igxListLine>
-                        <div class="column-layout group_18">
-                          <div class="row-layout group_19">
-                            <p class="igx-typography__subtitle-2 text_3">
+                        <div class="column-layout group_17">
+                          <div class="row-layout group_18">
+                            <p class="igx-typography__subtitle-2 text_4">
                               Project Intro
                             </p>
                           </div>
-                          <div class="row-layout group_20">
-                            <p class="igx-typography__caption text_4">
+                          <div class="row-layout group_19">
+                            <p class="igx-typography__caption text_3">
                               11/1/2022
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               -
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               10am
                             </p>
                           </div>
@@ -320,20 +334,20 @@
                         <igx-avatar src="/assets/Calendar-Avatar-Icon.svg" class="avatar_2"></igx-avatar>
                       </span>
                       <span igxListLine>
-                        <div class="column-layout group_18">
-                          <div class="row-layout group_19">
-                            <p class="igx-typography__subtitle-2 text_3">
+                        <div class="column-layout group_17">
+                          <div class="row-layout group_18">
+                            <p class="igx-typography__subtitle-2 text_4">
                               Sync Meeting
                             </p>
                           </div>
-                          <div class="row-layout group_20">
-                            <p class="igx-typography__caption text_4">
+                          <div class="row-layout group_19">
+                            <p class="igx-typography__caption text_3">
                               11/7/2022
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               -
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               2pm
                             </p>
                           </div>
@@ -348,20 +362,20 @@
                         <igx-avatar src="/assets/Calendar-Avatar-Icon.svg" class="avatar_2"></igx-avatar>
                       </span>
                       <span igxListLine>
-                        <div class="column-layout group_18">
-                          <div class="row-layout group_19">
-                            <p class="igx-typography__subtitle-2 text_3">
+                        <div class="column-layout group_17">
+                          <div class="row-layout group_18">
+                            <p class="igx-typography__subtitle-2 text_4">
                               Wrap Up Meeting
                             </p>
                           </div>
-                          <div class="row-layout group_20">
-                            <p class="igx-typography__caption text_4">
+                          <div class="row-layout group_19">
+                            <p class="igx-typography__caption text_3">
                               11/14/2022
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               -
                             </p>
-                            <p class="igx-typography__caption text_4">
+                            <p class="igx-typography__caption text_3">
                               4pm
                             </p>
                           </div>
@@ -378,13 +392,21 @@
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
               <igx-expansion-panel>
-                <igx-expansion-panel-body></igx-expansion-panel-body>
+                <igx-expansion-panel-body>
+                  <p class="igx-typography__body-2 text_3">
+                    No tasks added.
+                  </p>
+                </igx-expansion-panel-body>
                 <igx-expansion-panel-header iconPosition="right">
                   <igx-expansion-panel-title>Tasks (0)</igx-expansion-panel-title>
                 </igx-expansion-panel-header>
               </igx-expansion-panel>
               <igx-expansion-panel>
-                <igx-expansion-panel-body></igx-expansion-panel-body>
+                <igx-expansion-panel-body>
+                  <p class="igx-typography__body-2 text_3">
+                    No call logged.
+                  </p>
+                </igx-expansion-panel-body>
                 <igx-expansion-panel-header iconPosition="right">
                   <igx-expansion-panel-title>Call Logs (0)</igx-expansion-panel-title>
                 </igx-expansion-panel-header>
@@ -393,12 +415,14 @@
           </div>
         </igx-tab-content>
         <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>info</igx-icon>
           <span igxTabHeaderLabel>Activity</span>
         </igx-tab-header>
       </igx-tab-item>
       <igx-tab-item class="tab-item">
-        <igx-tab-content class="fake_tab_content"></igx-tab-content>
+        <igx-tab-content class="row-layout tab-item-content_1"></igx-tab-content>
         <igx-tab-header>
+          <igx-icon igxTabHeaderIcon>info</igx-icon>
           <span igxTabHeaderLabel>Conversations</span>
         </igx-tab-header>
       </igx-tab-item>
